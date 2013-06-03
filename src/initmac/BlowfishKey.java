@@ -35,5 +35,6 @@ public class BlowfishKey {
         byte[] encrypted = 
             cipher.doFinal("This is just an example".getBytes());
                 System.out.println(encrypted.toString());
+                System.out.println("fuck");
     }
 }
